@@ -1,0 +1,28 @@
+					/* Свойство float для блоков
+
+Свойство float применимо не только к картинкам, но и к любым другим блокам.
+
+Давайте проверим это.
+
+Пусть у нас есть див-родитель с классом parent, а внутри него находится текст и див-потомок с классом child. Обоим дивам задана граница, а диву потомку еще и ширина с высотой: */
+
+
+/* Давайте теперь диву-потомку установим float в значение left - текст начнет обтекать наш блок: */
+
+.elem{
+	width: 600px;
+	border: 1px solid red;
+	text-align: justify;
+	padding: 20px;
+	margin: 0px auto;
+}
+
+.elem1{
+	float: right;
+	width: 100px;
+	height: 70px;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-bottom: 10px;
+	border: 1px solid green;
+}
